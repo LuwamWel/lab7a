@@ -19,7 +19,7 @@ public class Student {
     public Student(int studentId, String name) {
         this.studentId = studentId;
         this.name = name;
-        this.dateOfAdmission = LocalDate.now(); // Default to current date
+        this.dateOfAdmission = LocalDate.now();
     }
 
     public int getStudentId() {
